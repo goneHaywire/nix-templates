@@ -1,0 +1,61 @@
+{
+  "nodes": {
+    "dev-templates": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1705594595,
+        "narHash": "sha256-+SwdK58ngm9RR7W6e1Zfrm0P8q0pnkjRZTiykrOCEoI=",
+        "owner": "the-nix-way",
+        "repo": "dev-templates",
+        "rev": "cb94157e1a3b24df4d939238265592fcdf0c6c18",
+        "type": "github"
+      },
+      "original": {
+        "owner": "the-nix-way",
+        "repo": "dev-templates",
+        "type": "github"
+      }
+    },
+    "nixos-templates": {
+      "locked": {
+        "lastModified": 1708484632,
+        "narHash": "sha256-6UD350MflALvXNkcnZ6VtkuD41mW15NZ7wM+/65uQGY=",
+        "owner": "nixos",
+        "repo": "templates",
+        "rev": "259699d91baef738c5826106b3aa46ddfcd4da51",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "repo": "templates",
+        "type": "github"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1689261696,
+        "narHash": "sha256-LzfUtFs9MQRvIoQ3MfgSuipBVMXslMPH/vZ+nM40LkA=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "df1eee2aa65052a18121ed4971081576b25d6b5c",
+        "type": "github"
+      },
+      "original": {
+        "owner": "NixOS",
+        "ref": "nixpkgs-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "dev-templates": "dev-templates",
+        "nixos-templates": "nixos-templates"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
